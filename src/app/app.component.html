@@ -1,0 +1,24 @@
+<body>
+
+
+<!-- //<a routerLink="/products">Product</a> -->
+  <div style="text-align: center">
+<h1 style="color:rgb(16, 17, 17);">Pizza Shop</h1>
+</div>
+<nav class="navbar navbar-dark bg-dark mb-5">
+
+      <a class="navbar-brand"  >  <img src="assets/icon.jfif" alt="Avatar" class="avatar"></a>
+      <div class="navbar-expand mr-auto">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" routerLink="/products">Home</a>
+            <a class="nav-item nav-link" href="#">About</a>
+            <a class="nav-item nav-link" routerLink="/cart">Cart</a>
+            
+         </div> 
+       </div>
+</nav>
+     
+
+<!-- <app-product-list></app-product-list> -->
+<router-outlet></router-outlet>
+</body>
